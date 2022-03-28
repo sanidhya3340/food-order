@@ -1,0 +1,30 @@
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.bringcenter{
+    /* margin-top: 12rem; */
+    position: relative;
+    top: 8rem;
+    height: 50%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.bttn{
+    height: 2rem;
+    width: 2rem;
+    box-shadow: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.confirm{
+    padding: 0.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(131, 216, 131);
+}
